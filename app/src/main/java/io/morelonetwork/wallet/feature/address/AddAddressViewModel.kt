@@ -1,16 +1,16 @@
-package io.wookey.wallet.feature.address
+package io.morelonetwork.wallet.feature.address
 
 import android.app.Activity
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import android.content.Intent
-import io.wookey.wallet.base.BaseViewModel
-import io.wookey.wallet.core.XMRWalletController
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.AddressBook
-import io.wookey.wallet.support.REQUEST_SCAN_ADDRESS
-import io.wookey.wallet.support.REQUEST_SELECT_COIN
-import io.wookey.wallet.support.viewmodel.SingleLiveEvent
+import io.morelonetwork.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.core.XMRWalletController
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.AddressBook
+import io.morelonetwork.wallet.support.REQUEST_SCAN_ADDRESS
+import io.morelonetwork.wallet.support.REQUEST_SELECT_COIN
+import io.morelonetwork.wallet.support.viewmodel.SingleLiveEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.address
+package io.morelonetwork.wallet.feature.address
 
 import android.Manifest
 import android.app.Activity
@@ -10,12 +10,12 @@ import android.os.Bundle
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import cn.bingoogolapple.qrcode.core.QRCodeView
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.widget.IOSDialog
-import io.wookey.wallet.support.REQUEST_CODE_PERMISSION_CAMERA
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.utils.StatusBarHelper
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.widget.IOSDialog
+import io.morelonetwork.wallet.support.REQUEST_CODE_PERMISSION_CAMERA
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.utils.StatusBarHelper
 import kotlinx.android.synthetic.main.activity_scan.*
 import kotlinx.android.synthetic.main.base_title_second.*
 

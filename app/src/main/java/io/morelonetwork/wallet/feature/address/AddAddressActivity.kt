@@ -1,16 +1,16 @@
-package io.wookey.wallet.feature.address
+package io.morelonetwork.wallet.feature.address
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.REQUEST_SCAN_ADDRESS
-import io.wookey.wallet.support.extensions.afterTextChanged
-import io.wookey.wallet.support.extensions.setImage
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.REQUEST_SCAN_ADDRESS
+import io.morelonetwork.wallet.support.extensions.afterTextChanged
+import io.morelonetwork.wallet.support.extensions.setImage
 import kotlinx.android.synthetic.main.activity_add_address.*
 
 class AddAddressActivity : BaseTitleSecondActivity() {

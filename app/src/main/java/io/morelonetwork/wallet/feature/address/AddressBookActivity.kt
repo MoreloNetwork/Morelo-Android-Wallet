@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.address
+package io.morelonetwork.wallet.feature.address
 
 import android.app.Activity
 import androidx.lifecycle.Observer
@@ -12,15 +12,15 @@ import android.view.View
 import android.view.ViewGroup
 import cn.we.swipe.helper.WeSwipe
 import cn.we.swipe.helper.WeSwipeHelper
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.AddressBook
-import io.wookey.wallet.dialog.AddressBookEditDialog
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.setImage
-import io.wookey.wallet.widget.DividerItemDecoration
-import io.wookey.wallet.widget.StatusAdapterWrapper
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.AddressBook
+import io.morelonetwork.wallet.dialog.AddressBookEditDialog
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.setImage
+import io.morelonetwork.wallet.widget.DividerItemDecoration
+import io.morelonetwork.wallet.widget.StatusAdapterWrapper
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_address_book.*
 import kotlinx.android.synthetic.main.item_common.*

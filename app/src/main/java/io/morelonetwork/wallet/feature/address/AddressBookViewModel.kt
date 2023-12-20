@@ -1,9 +1,9 @@
-package io.wookey.wallet.feature.address
+package io.morelonetwork.wallet.feature.address
 
 import androidx.lifecycle.MutableLiveData
-import io.wookey.wallet.base.BaseViewModel
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.AddressBook
+import io.morelonetwork.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.AddressBook
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
