@@ -1,4 +1,4 @@
-package io.wookey.wallet.dialog
+package io.morelonetwork.wallet.dialog
 
 import android.app.Dialog
 import android.graphics.Color
@@ -7,10 +7,10 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
-import io.wookey.wallet.R
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.screenWidth
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.screenWidth
 import kotlinx.android.synthetic.main.dialog_extra_id_prompt.*
 
 class ExtraIDPromptDialog : DialogFragment() {

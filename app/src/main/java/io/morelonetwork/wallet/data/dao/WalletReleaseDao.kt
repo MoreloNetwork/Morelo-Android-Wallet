@@ -1,7 +1,7 @@
-package io.wookey.wallet.data.dao
+package io.morelonetwork.wallet.data.dao
 
 import androidx.room.*
-import io.wookey.wallet.data.entity.WalletRelease
+import io.morelonetwork.wallet.data.entity.WalletRelease
 
 @Dao
 interface WalletReleaseDao {

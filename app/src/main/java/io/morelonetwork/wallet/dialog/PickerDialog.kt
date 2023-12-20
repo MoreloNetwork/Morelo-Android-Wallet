@@ -1,4 +1,4 @@
-package io.wookey.wallet.dialog
+package io.morelonetwork.wallet.dialog
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -7,10 +7,10 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
 import android.util.Log
 import android.view.*
-import io.wookey.wallet.R
-import io.wookey.wallet.support.extensions.displayCoin
-import io.wookey.wallet.support.extensions.screenWidth
-import io.wookey.wallet.support.extensions.sharedPreferences
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.support.extensions.displayCoin
+import io.morelonetwork.wallet.support.extensions.screenWidth
+import io.morelonetwork.wallet.support.extensions.sharedPreferences
 import kotlinx.android.synthetic.main.dialog_picker.*
 import java.util.*
 

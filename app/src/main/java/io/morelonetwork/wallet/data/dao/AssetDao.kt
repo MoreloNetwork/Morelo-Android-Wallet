@@ -1,4 +1,4 @@
-package io.wookey.wallet.data.dao
+package io.morelonetwork.wallet.data.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

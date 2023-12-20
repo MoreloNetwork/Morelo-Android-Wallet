@@ -1,13 +1,13 @@
-package io.wookey.wallet.dialog
+package io.morelonetwork.wallet.dialog
 
 import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
 import android.view.WindowManager
-import io.wookey.wallet.R
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.utils.ShadowDrawable
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.utils.ShadowDrawable
 import kotlinx.android.synthetic.main.loading_dialog.*
 
 class LoadingDialog(context: Context) : Dialog(context, R.style.LoadingDialogTheme) {

@@ -1,4 +1,4 @@
-package io.wookey.wallet.dialog
+package io.morelonetwork.wallet.dialog
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,13 +12,13 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
-import io.wookey.wallet.R
-import io.wookey.wallet.feature.setting.WebViewActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.clickableSpan
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.getCurrentLocale
-import io.wookey.wallet.support.extensions.screenWidth
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.feature.setting.WebViewActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.clickableSpan
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.getCurrentLocale
+import io.morelonetwork.wallet.support.extensions.screenWidth
 import kotlinx.android.synthetic.main.dialog_privacy.*
 
 class PrivacyDialog : DialogFragment() {
@@ -59,7 +59,8 @@ class PrivacyDialog : DialogFragment() {
         val end1 = start1 + agreement.length
         val start2 = contentText.indexOf(privacy)
         val end2 = start2 + privacy.length
-
+		
+		//TODO replace docs links
         val style = SpannableString(contentText)
         style.clickableSpan(start1..end1, ContextCompat.getColor(activity!!, R.color.color_2179FF)) {
             startActivity(Intent(activity, WebViewActivity::class.java).apply {

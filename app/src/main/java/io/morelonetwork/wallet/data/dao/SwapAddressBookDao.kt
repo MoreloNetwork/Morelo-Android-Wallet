@@ -1,10 +1,10 @@
-package io.wookey.wallet.data.dao
+package io.morelonetwork.wallet.data.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import io.wookey.wallet.data.entity.AddressBook
-import io.wookey.wallet.data.entity.Asset
-import io.wookey.wallet.data.entity.SwapAddressBook
+import io.morelonetwork.wallet.data.entity.AddressBook
+import io.morelonetwork.wallet.data.entity.Asset
+import io.morelonetwork.wallet.data.entity.SwapAddressBook
 
 @Dao
 interface SwapAddressBookDao {

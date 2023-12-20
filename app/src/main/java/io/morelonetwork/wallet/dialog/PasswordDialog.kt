@@ -1,4 +1,4 @@
-package io.wookey.wallet.dialog
+package io.morelonetwork.wallet.dialog
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -6,12 +6,12 @@ import android.os.Bundle
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
 import android.view.*
-import io.wookey.wallet.R
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.afterTextChanged
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.hideKeyboard
-import io.wookey.wallet.support.extensions.screenWidth
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.afterTextChanged
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.hideKeyboard
+import io.morelonetwork.wallet.support.extensions.screenWidth
 import kotlinx.android.synthetic.main.dialog_password.*
 
 class PasswordDialog : DialogFragment() {
