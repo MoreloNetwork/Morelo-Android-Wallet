@@ -1,1 +1,1 @@
-include ':app', ':monero', ':helper'
+include ':app', ':morelo', ':helper'

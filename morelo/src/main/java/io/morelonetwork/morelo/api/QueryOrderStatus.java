@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.api;
+package io.morelonetwork.morelo.api;
 
 import java.util.Date;
 
@@ -64,25 +64,25 @@ public interface QueryOrderStatus {
 
     int getSecondsTillTimeout(); // "seconds_till_timeout": <seconds_till_timeout_as_integer>,
 
-    double getXmrAmountTotal(); // "xmr_amount_total": <amount_in_xmr_for_this_order_as_float>,
+    double getXmrAmountTotal(); // "mrl_amount_total": <amount_in_mrl_for_this_order_as_float>,
 
-    double getXmrAmountRemaining(); // "xmr_amount_remaining": <amount_in_xmr_that_the_user_must_still_send_as_float>,
+    double getXmrAmountRemaining(); // "mrl_amount_remaining": <amount_in_mrl_that_the_user_must_still_send_as_float>,
 
-    int getXmrNumConfirmationsRemaining(); // "xmr_num_confirmations_remaining": <num_xmr_confirmations_remaining_before_bitcoins_will_be_sent_as_integer>,
+    int getXmrNumConfirmationsRemaining(); // "mrl_num_confirmations_remaining": <num_xmr_confirmations_remaining_before_bitcoins_will_be_sent_as_integer>,
 
-    double getXmrPriceBtc(); // "xmr_price_btc": <price_of_1_btc_in_xmr_as_offered_by_service_as_float>,
+    double getXmrPriceBtc(); // "mrl_price_btc": <price_of_1_btc_in_mrl_as_offered_by_service_as_float>,
 
-    String getXmrReceivingAddress(); // "xmr_receiving_address": "xmr_old_style_address_user_can_send_funds_to_as_string",
+    String getXmrReceivingAddress(); // "mrl_receiving_address": "mrl_old_style_address_user_can_send_funds_to_as_string",
 
-    String getXmrReceivingIntegratedAddress(); // "xmr_receiving_integrated_address": "xmr_integrated_address_user_needs_to_send_funds_to_as_string",
+    String getXmrReceivingIntegratedAddress(); // "mrl_receiving_integrated_address": "mrl_integrated_address_user_needs_to_send_funds_to_as_string",
 
-    int getXmrRecommendedMixin(); // "xmr_recommended_mixin": <xmr_recommended_mixin_as_integer>,
+    int getXmrRecommendedMixin(); // "mrl_recommended_mixin": <mrl_recommended_mixin_as_integer>,
 
     @Deprecated
-    double getXmrRequiredAmount(); // "xmr_required_amount": <xmr_amount_user_needs_to_send_as_float>,
+    double getXmrRequiredAmount(); // "mrl_required_amount": <mrl_amount_user_needs_to_send_as_float>,
 
-    String getXmrRequiredPaymentIdLong(); // "xmr_required_payment_id_long": "xmr_payment_id_user_needs_to_include_when_using_old_stlye_address_as_string"
+    String getXmrRequiredPaymentIdLong(); // "mrl_required_payment_id_long": "mrl_payment_id_user_needs_to_include_when_using_old_stlye_address_as_string"
 
-    String getXmrRequiredPaymentIdShort(); // "xmr_required_payment_id_short": "xmr_payment_id_included_in_integrated_address_as_string"
+    String getXmrRequiredPaymentIdShort(); // "mrl_required_payment_id_short": "mrl_payment_id_included_in_integrated_address_as_string"
 
 }

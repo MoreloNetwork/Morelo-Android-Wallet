@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.data;
+package io.morelonetwork.morelo.data;
 
 
 import android.util.Log;
-import io.wookey.monero.model.NetworkType;
-import io.wookey.monero.model.WalletManager;
+import io.morelonetwork.morelo.model.NetworkType;
+import io.morelonetwork.morelo.model.WalletManager;
 
 import java.io.UnsupportedEncodingException;
 import java.net.*;
@@ -317,13 +317,13 @@ public class Node {
         if (DEFAULT_RPC_PORT > 0) return DEFAULT_RPC_PORT;
         switch (WalletManager.getInstance().getNetworkType()) {
             case NetworkType_Mainnet:
-                DEFAULT_RPC_PORT = 18081;
+                DEFAULT_RPC_PORT = 38302;
                 break;
             case NetworkType_Testnet:
-                DEFAULT_RPC_PORT = 28081;
+                DEFAULT_RPC_PORT = 38312;
                 break;
             case NetworkType_Stagenet:
-                DEFAULT_RPC_PORT = 38081;
+                DEFAULT_RPC_PORT = 38322;
                 break;
             default:
                 throw new IllegalStateException("unsupported net " + WalletManager.getInstance().getNetworkType());

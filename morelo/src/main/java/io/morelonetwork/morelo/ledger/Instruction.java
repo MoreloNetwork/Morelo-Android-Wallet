@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.ledger;
+package io.morelonetwork.morelo.ledger;
 
 public enum Instruction {
     INS_NONE(0x00),

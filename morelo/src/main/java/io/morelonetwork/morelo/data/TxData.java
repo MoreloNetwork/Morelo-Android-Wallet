@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.data;
+package io.morelonetwork.morelo.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import io.wookey.monero.model.PendingTransaction;
-import io.wookey.monero.util.UserNotes;
+import io.morelonetwork.morelo.model.PendingTransaction;
+import io.morelonetwork.morelo.util.UserNotes;
 
 
 // https://stackoverflow.com/questions/2139134/how-to-send-an-object-from-one-android-activity-to-another-using-intents
