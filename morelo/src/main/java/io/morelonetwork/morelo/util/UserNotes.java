@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.util;
+package io.morelonetwork.morelo.util;
 
 
-import io.wookey.monero.api.QueryOrderStatus;
+import io.morelonetwork.morelo.api.QueryOrderStatus;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -35,7 +35,7 @@ public class UserNotes {
             return;
         }
         this.txNotes = txNotes;
-        Pattern p = Pattern.compile("^\\{(xmrto-\\w{6}),([0-9.]*)BTC,(\\w*)\\} ?(.*)");
+        Pattern p = Pattern.compile("^\\{(mrlto-\\w{6}),([0-9.]*)BTC,(\\w*)\\} ?(.*)");
         Matcher m = p.matcher(txNotes);
         if (m.find()) {
             xmrtoKey = m.group(1);

@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.model;
+package io.morelonetwork.morelo.model;
 
 
 import android.util.Log;
-import io.wookey.monero.data.Node;
-import io.wookey.monero.ledger.Ledger;
-import io.wookey.monero.util.RestoreHeight;
+import io.morelonetwork.morelo.data.Node;
+import io.morelonetwork.morelo.ledger.Ledger;
+import io.morelonetwork.morelo.util.RestoreHeight;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -54,11 +54,11 @@ public class WalletManager {
     static public String addressPrefix(NetworkType networkType) {
         switch (networkType) {
             case NetworkType_Testnet:
-                return "9A-";
+                return "eto-";
             case NetworkType_Mainnet:
-                return "4-";
+                return "emo-";
             case NetworkType_Stagenet:
-                return "5-";
+                return "exo-";
             default:
                 throw new IllegalStateException("Unsupported Network: " + networkType);
         }

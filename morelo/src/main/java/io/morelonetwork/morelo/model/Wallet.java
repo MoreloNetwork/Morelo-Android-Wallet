@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.model;
+package io.morelonetwork.morelo.model;
 
 
 import android.nfc.Tag;
 import android.util.Log;
 
-import io.wookey.monero.data.TxData;
+import io.morelonetwork.morelo.data.TxData;
 
 import java.io.File;
 import java.lang.annotation.Retention;

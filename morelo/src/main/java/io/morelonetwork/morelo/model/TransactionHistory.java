@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.wookey.monero.model;
+package io.morelonetwork.morelo.model;
 
 import android.util.Log;
 
