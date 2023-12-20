@@ -15,7 +15,7 @@ static def computeVersionName() {
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "io.wookey.wallet.monero"
+        applicationId "io.morelonetwork.wallet.morelo"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode computeVersionCode()
@@ -54,7 +54,7 @@ android {
         variant.outputs.all { output ->
             def abiName = output.getFilter(com.android.build.OutputFile.ABI)
             if (abiName == null) abiName = "universal"
-            outputFileName = "monero-${variant.versionName}-${variant.versionCode}-${abiName}.apk"
+            outputFileName = "morelo-${variant.versionName}-${variant.versionCode}-${abiName}.apk"
         }
     }
 }
@@ -91,7 +91,7 @@ dependencies {
     // 日期选择
     implementation 'com.contrarywind:Android-PickerView:4.1.7'
 
-    implementation project(':monero')
+    implementation project(':morelo')
 
     implementation project(':helper')
 
