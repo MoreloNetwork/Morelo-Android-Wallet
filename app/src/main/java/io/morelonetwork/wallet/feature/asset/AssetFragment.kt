@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import android.app.Activity
 import androidx.lifecycle.Observer
@@ -10,16 +10,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.base.BaseFragment
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.Asset
-import io.wookey.wallet.feature.wallet.WalletManagerActivity
-import io.wookey.wallet.feature.auth.AuthManager
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING
-import io.wookey.wallet.support.extensions.*
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.base.BaseFragment
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.Asset
+import io.morelonetwork.wallet.feature.wallet.WalletManagerActivity
+import io.morelonetwork.wallet.feature.auth.AuthManager
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING
+import io.morelonetwork.wallet.support.extensions.*
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.base_title_second.*
 import kotlinx.android.synthetic.main.fragment_asset.*

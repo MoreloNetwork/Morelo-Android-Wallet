@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -8,17 +8,17 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.core.content.ContextCompat
 import android.view.View
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.dialog.PasswordDialog
-import io.wookey.wallet.feature.setting.NodeListActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.REQUEST_SELECT_NODE
-import io.wookey.wallet.support.extensions.copy
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.formatterAmountStrip
-import io.wookey.wallet.support.extensions.setImage
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.dialog.PasswordDialog
+import io.morelonetwork.wallet.feature.setting.NodeListActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.REQUEST_SELECT_NODE
+import io.morelonetwork.wallet.support.extensions.copy
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.formatterAmountStrip
+import io.morelonetwork.wallet.support.extensions.setImage
 import kotlinx.android.synthetic.main.activity_asset_detail.*
 
 class AssetDetailActivity : BaseTitleSecondActivity() {

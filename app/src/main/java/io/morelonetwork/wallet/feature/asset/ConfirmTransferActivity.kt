@@ -1,19 +1,19 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import android.app.Activity
 import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.feature.auth.AuthManager
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING
-import io.wookey.wallet.support.extensions.formatterAmountStrip
-import io.wookey.wallet.support.extensions.setImage
-import io.wookey.wallet.support.extensions.toast
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.feature.auth.AuthManager
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING
+import io.morelonetwork.wallet.support.extensions.formatterAmountStrip
+import io.morelonetwork.wallet.support.extensions.setImage
+import io.morelonetwork.wallet.support.extensions.toast
 import kotlinx.android.synthetic.main.activity_confirm_transfer.*
 
 class ConfirmTransferActivity : BaseTitleSecondActivity() {
