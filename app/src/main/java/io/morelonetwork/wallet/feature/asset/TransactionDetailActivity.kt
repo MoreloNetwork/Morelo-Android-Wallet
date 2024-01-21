@@ -1,16 +1,16 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.view.View
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.entity.TransactionInfo
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.copy
-import io.wookey.wallet.support.extensions.formatterAmountStrip
-import io.wookey.wallet.support.extensions.formatterDate
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.entity.TransactionInfo
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.copy
+import io.morelonetwork.wallet.support.extensions.formatterAmountStrip
+import io.morelonetwork.wallet.support.extensions.formatterDate
 import kotlinx.android.synthetic.main.activity_transaction_detail.*
 
 class TransactionDetailActivity : BaseTitleSecondActivity() {

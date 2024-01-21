@@ -1,12 +1,12 @@
-package io.wookey.wallet.feature.wallet
+package io.morelonetwork.wallet.feature.wallet
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.support.extensions.copy
-import io.wookey.wallet.support.extensions.toast
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.support.extensions.copy
+import io.morelonetwork.wallet.support.extensions.toast
 import kotlinx.android.synthetic.main.activity_backup_key.*
 
 class BackupKeyActivity : BaseTitleSecondActivity() {

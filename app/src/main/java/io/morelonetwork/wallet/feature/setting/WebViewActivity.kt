@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.setting
+package io.morelonetwork.wallet.feature.setting
 
 import android.content.Intent
 import android.content.pm.ApplicationInfo
@@ -12,10 +12,10 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.*
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.support.extensions.getCurrentLocale
-import io.wookey.wallet.widget.SlowlyProgressBar
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.support.extensions.getCurrentLocale
+import io.morelonetwork.wallet.widget.SlowlyProgressBar
 import kotlinx.android.synthetic.main.activity_webview.*
 
 

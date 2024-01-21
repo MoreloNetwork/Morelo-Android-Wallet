@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.wookey.wallet.widget;
+package io.morelonetwork.wallet.widget;
 
 import android.content.Context;
 import android.content.res.Resources;

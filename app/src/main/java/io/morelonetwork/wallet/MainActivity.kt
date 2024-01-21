@@ -1,18 +1,18 @@
-package io.wookey.wallet
+package io.morelonetwork.wallet
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.core.XMRWalletController
-import io.wookey.wallet.feature.asset.AssetFragment
-import io.wookey.wallet.feature.setting.LanguageActivity
-import io.wookey.wallet.feature.setting.SettingFragment
-import io.wookey.wallet.feature.swap.SwapFragment
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.utils.StatusBarHelper
-import io.wookey.wallet.widget.IOSDialog
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.core.XMRWalletController
+import io.morelonetwork.wallet.feature.asset.AssetFragment
+import io.morelonetwork.wallet.feature.setting.LanguageActivity
+import io.morelonetwork.wallet.feature.setting.SettingFragment
+import io.morelonetwork.wallet.feature.swap.SwapFragment
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.utils.StatusBarHelper
+import io.morelonetwork.wallet.widget.IOSDialog
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {

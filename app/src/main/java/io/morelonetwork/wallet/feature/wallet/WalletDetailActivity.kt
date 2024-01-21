@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.wallet
+package io.morelonetwork.wallet.feature.wallet
 
 import android.app.Activity
 import android.content.Intent
@@ -6,20 +6,20 @@ import android.os.Bundle
 import android.text.TextUtils
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.dialog.PasswordDialog
-import io.wookey.wallet.dialog.PasswordPromptDialog
-import io.wookey.wallet.feature.auth.AuthManager
-import io.wookey.wallet.feature.generate.WalletActivity
-import io.wookey.wallet.feature.generate.create.BackupMnemonicActivity
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING_ADDRESS_SETTING
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING_BACKUP_KEY
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING_BACKUP_MNEMONIC
-import io.wookey.wallet.support.extensions.formatterAmountStrip
-import io.wookey.wallet.support.extensions.toast
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.dialog.PasswordDialog
+import io.morelonetwork.wallet.dialog.PasswordPromptDialog
+import io.morelonetwork.wallet.feature.auth.AuthManager
+import io.morelonetwork.wallet.feature.generate.WalletActivity
+import io.morelonetwork.wallet.feature.generate.create.BackupMnemonicActivity
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING_ADDRESS_SETTING
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING_BACKUP_KEY
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING_BACKUP_MNEMONIC
+import io.morelonetwork.wallet.support.extensions.formatterAmountStrip
+import io.morelonetwork.wallet.support.extensions.toast
 import kotlinx.android.synthetic.main.activity_wallet_detail.*
 
 class WalletDetailActivity : BaseTitleSecondActivity() {

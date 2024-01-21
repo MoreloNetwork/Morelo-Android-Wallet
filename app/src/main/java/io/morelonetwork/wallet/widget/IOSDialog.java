@@ -1,4 +1,4 @@
-package io.wookey.wallet.widget;
+package io.morelonetwork.wallet.widget;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -23,7 +23,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import io.wookey.wallet.R;
+import io.morelonetwork.wallet.R;
 
 /**
  * 自定义模仿IOS效果的Dialog

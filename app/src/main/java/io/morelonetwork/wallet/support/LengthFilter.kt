@@ -1,4 +1,4 @@
-package io.wookey.wallet.support
+package io.morelonetwork.wallet.support
 
 import android.text.InputFilter
 import android.text.Spanned

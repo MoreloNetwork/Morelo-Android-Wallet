@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.auth
+package io.morelonetwork.wallet.feature.auth
 
 import android.graphics.Canvas
 import com.github.ihsg.patternlocker.CellBean

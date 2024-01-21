@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.generate
+package io.morelonetwork.wallet.feature.generate
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -9,14 +9,14 @@ import android.text.SpannableString
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.LinkMovementMethod
 import android.text.method.PasswordTransformationMethod
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.feature.generate.create.BackupMnemonicActivity
-import io.wookey.wallet.feature.generate.recovery.RecoveryWalletActivity
-import io.wookey.wallet.feature.setting.WebViewActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.LengthFilter
-import io.wookey.wallet.support.extensions.*
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.feature.generate.create.BackupMnemonicActivity
+import io.morelonetwork.wallet.feature.generate.recovery.RecoveryWalletActivity
+import io.morelonetwork.wallet.feature.setting.WebViewActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.LengthFilter
+import io.morelonetwork.wallet.support.extensions.*
 import kotlinx.android.synthetic.main.activity_generate_wallet.*
 
 class GenerateWalletActivity : BaseTitleSecondActivity() {

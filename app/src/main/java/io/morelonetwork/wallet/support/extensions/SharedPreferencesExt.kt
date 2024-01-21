@@ -1,8 +1,8 @@
-package io.wookey.wallet.support.extensions
+package io.morelonetwork.wallet.support.extensions
 
 import android.content.Context
 import android.content.SharedPreferences
-import io.wookey.wallet.App
+import io.morelonetwork.wallet.App
 
 fun sharedPreferences(name: String = "default") = App.instance.getSharedPreferences(name, Context.MODE_PRIVATE)
         ?: throw IllegalStateException("SharedPreferences initialized failed")

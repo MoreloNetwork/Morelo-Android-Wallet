@@ -1,4 +1,4 @@
-package io.wookey.wallet.widget;
+package io.morelonetwork.wallet.widget;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
@@ -16,9 +16,9 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import io.wookey.wallet.R;
-import io.wookey.wallet.support.BackgroundHelper;
-import io.wookey.wallet.support.utils.DisplayHelper;
+import io.morelonetwork.wallet.R;
+import io.morelonetwork.wallet.support.BackgroundHelper;
+import io.morelonetwork.wallet.support.utils.DisplayHelper;
 
 public class StatusAdapterWrapper extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

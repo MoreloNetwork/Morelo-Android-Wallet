@@ -1,4 +1,4 @@
-package io.wookey.wallet.widget;
+package io.morelonetwork.wallet.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

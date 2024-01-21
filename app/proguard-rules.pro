@@ -231,17 +231,17 @@
 
 -keepattributes *Annotation*, InnerClasses
 -dontnote kotlinx.serialization.SerializationKt
--keep,includedescriptorclasses class io.wookey.wallet.**$$serializer { *; } # <-- change package name to your app's
--keepclassmembers class io.wookey.wallet.** { # <-- change package name to your app's
+-keep,includedescriptorclasses class io.morelonetwork.wallet.**$$serializer { *; } # <-- change package name to your app's
+-keepclassmembers class io.morelonetwork.wallet.** { # <-- change package name to your app's
     *** Companion;
 }
--keepclasseswithmembers class io.wookey.wallet.** { # <-- change package name to your app's
+-keepclasseswithmembers class io.morelonetwork.wallet.** { # <-- change package name to your app's
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--dontwarn io.wookey.monero.**
--keep class io.wookey.monero.** { *; }
--keep interface io.wookey.monero.** { *; }
+-dontwarn io.morelonetwork.monero.**
+-keep class io.morelonetwork.monero.** { *; }
+-keep interface io.morelonetwork.monero.** { *; }
 
 -assumenosideeffects class android.util.Log {
   public static *** v(...);

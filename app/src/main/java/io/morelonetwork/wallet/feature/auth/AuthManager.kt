@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.auth
+package io.morelonetwork.wallet.feature.auth
 
 import android.content.Intent
 import android.os.Build
@@ -8,13 +8,13 @@ import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.data.entity.WalletRelease
-import io.wookey.wallet.dialog.PasswordDialog
-import io.wookey.wallet.support.REQUEST_PATTERN_CHECKING
-import io.wookey.wallet.support.extensions.getCipher
-import io.wookey.wallet.support.extensions.getSecretKey
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.data.entity.WalletRelease
+import io.morelonetwork.wallet.dialog.PasswordDialog
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_CHECKING
+import io.morelonetwork.wallet.support.extensions.getCipher
+import io.morelonetwork.wallet.support.extensions.getSecretKey
 import javax.crypto.Cipher
 import javax.crypto.spec.IvParameterSpec
 

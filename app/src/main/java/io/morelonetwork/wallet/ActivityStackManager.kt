@@ -1,4 +1,4 @@
-package io.wookey.wallet
+package io.morelonetwork.wallet
 
 import android.app.Activity
 

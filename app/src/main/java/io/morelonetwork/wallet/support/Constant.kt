@@ -1,7 +1,7 @@
-package io.wookey.wallet.support
+package io.morelonetwork.wallet.support
 
-import io.wookey.wallet.data.entity.Coin
-import io.wookey.wallet.data.entity.Node
+import io.morelonetwork.wallet.data.entity.Coin
+import io.morelonetwork.wallet.data.entity.Node
 
 const val WALLET_RECOVERY = 1
 const val WALLET_CREATE = 0

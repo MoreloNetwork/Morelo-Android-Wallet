@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.auth
+package io.morelonetwork.wallet.feature.auth
 
 import android.app.Activity
 import android.content.Intent
@@ -7,12 +7,12 @@ import android.util.Base64
 import androidx.core.content.ContextCompat
 import com.github.ihsg.patternlocker.OnPatternChangeListener
 import com.github.ihsg.patternlocker.PatternLockerView
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.data.entity.WalletRelease
-import io.wookey.wallet.dialog.PasswordDialog
-import io.wookey.wallet.support.extensions.*
-import io.wookey.wallet.support.utils.StatusBarHelper
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.data.entity.WalletRelease
+import io.morelonetwork.wallet.dialog.PasswordDialog
+import io.morelonetwork.wallet.support.extensions.*
+import io.morelonetwork.wallet.support.utils.StatusBarHelper
 import kotlinx.android.synthetic.main.activity_pattern_checking.*
 import kotlinx.android.synthetic.main.activity_pattern_checking.msg
 import kotlinx.android.synthetic.main.activity_pattern_checking.patternLockerView

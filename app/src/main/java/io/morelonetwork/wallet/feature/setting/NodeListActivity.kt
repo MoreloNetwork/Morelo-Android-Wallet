@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.setting
+package io.morelonetwork.wallet.feature.setting
 
 import android.app.Activity
 import androidx.lifecycle.Observer
@@ -12,16 +12,16 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.Node
-import io.wookey.wallet.dialog.NodeEditDialog
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.openBrowser
-import io.wookey.wallet.support.extensions.toast
-import io.wookey.wallet.widget.DividerItemDecoration
-import io.wookey.wallet.widget.IOSDialog
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.Node
+import io.morelonetwork.wallet.dialog.NodeEditDialog
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.openBrowser
+import io.morelonetwork.wallet.support.extensions.toast
+import io.morelonetwork.wallet.widget.DividerItemDecoration
+import io.morelonetwork.wallet.widget.IOSDialog
 import kotlinx.android.synthetic.main.activity_node_list.*
 import kotlinx.android.synthetic.main.item_node.view.*
 

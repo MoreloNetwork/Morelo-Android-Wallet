@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:fillViewport="true">
 
-        <io.wookey.wallet.widget.InterceptTouchEventLayout
+        <io.morelonetwork.wallet.widget.InterceptTouchEventLayout
             android:id="@+id/intercept"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -401,7 +401,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/swapBg" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </io.wookey.wallet.widget.InterceptTouchEventLayout>
+        </io.morelonetwork.wallet.widget.InterceptTouchEventLayout>
     </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>

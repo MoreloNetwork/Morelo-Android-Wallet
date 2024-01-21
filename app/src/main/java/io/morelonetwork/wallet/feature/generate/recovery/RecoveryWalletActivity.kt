@@ -1,10 +1,10 @@
-package io.wookey.wallet.feature.generate.recovery
+package io.morelonetwork.wallet.feature.generate.recovery
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentPagerAdapter
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
 import kotlinx.android.synthetic.main.activity_recovery_wallet.*
 
 class RecoveryWalletActivity : BaseTitleSecondActivity() {

@@ -1,9 +1,9 @@
-package io.wookey.wallet.feature.wallet
+package io.morelonetwork.wallet.feature.wallet
 
 import androidx.lifecycle.MutableLiveData
-import io.wookey.wallet.base.BaseViewModel
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.WalletRelease
+import io.morelonetwork.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.WalletRelease
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

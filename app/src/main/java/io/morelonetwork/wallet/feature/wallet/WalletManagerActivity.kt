@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.wallet
+package io.morelonetwork.wallet.feature.wallet
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -9,15 +9,15 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.data.entity.Wallet
-import io.wookey.wallet.feature.generate.GenerateWalletActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.WALLET_CREATE
-import io.wookey.wallet.support.WALLET_RECOVERY
-import io.wookey.wallet.support.extensions.*
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.data.entity.Wallet
+import io.morelonetwork.wallet.feature.generate.GenerateWalletActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.WALLET_CREATE
+import io.morelonetwork.wallet.support.WALLET_RECOVERY
+import io.morelonetwork.wallet.support.extensions.*
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_wallet_manager.*
 import kotlinx.android.synthetic.main.item_wallet.*

@@ -1,14 +1,14 @@
-package io.wookey.wallet.feature.swap
+package io.morelonetwork.wallet.feature.swap
 
 import android.os.Bundle
 import androidx.lifecycle.Observer
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.remote.entity.SwapTransaction
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.formatterDate
-import io.wookey.wallet.support.extensions.toast
-import io.wookey.wallet.support.extensions.viewModel
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.remote.entity.SwapTransaction
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.formatterDate
+import io.morelonetwork.wallet.support.extensions.toast
+import io.morelonetwork.wallet.support.extensions.viewModel
 import kotlinx.android.synthetic.main.activity_swap_detail.*
 import java.util.*
 

@@ -1,8 +1,8 @@
-package io.wookey.wallet.feature.setting
+package io.morelonetwork.wallet.feature.setting
 
 import androidx.lifecycle.MutableLiveData
 import android.util.Log
-import io.wookey.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.base.BaseViewModel
 import kotlinx.coroutines.*
 import org.json.JSONObject
 import java.io.BufferedReader

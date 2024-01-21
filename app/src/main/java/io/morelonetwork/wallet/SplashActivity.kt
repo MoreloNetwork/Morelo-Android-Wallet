@@ -1,15 +1,15 @@
-package io.wookey.wallet
+package io.morelonetwork.wallet
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.dialog.PrivacyDialog
-import io.wookey.wallet.feature.generate.WalletActivity
-import io.wookey.wallet.feature.generate.create.BackupMnemonicActivity
-import io.wookey.wallet.support.extensions.putBoolean
-import io.wookey.wallet.support.extensions.sharedPreferences
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.dialog.PrivacyDialog
+import io.morelonetwork.wallet.feature.generate.WalletActivity
+import io.morelonetwork.wallet.feature.generate.create.BackupMnemonicActivity
+import io.morelonetwork.wallet.support.extensions.putBoolean
+import io.morelonetwork.wallet.support.extensions.sharedPreferences
 import kotlinx.coroutines.*
 
 class SplashActivity : BaseActivity() {

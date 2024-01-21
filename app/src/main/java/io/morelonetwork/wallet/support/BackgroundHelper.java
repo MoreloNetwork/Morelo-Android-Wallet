@@ -1,4 +1,4 @@
-package io.wookey.wallet.support;
+package io.morelonetwork.wallet.support;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -11,11 +11,11 @@ import androidx.core.content.ContextCompat;
 
 import android.view.View;
 
-import io.wookey.wallet.R;
-import io.wookey.wallet.support.utils.DisplayHelper;
-import io.wookey.wallet.support.utils.DrawableHelper;
-import io.wookey.wallet.support.utils.SelectorFactory;
-import io.wookey.wallet.support.utils.ShadowDrawable;
+import io.morelonetwork.wallet.R;
+import io.morelonetwork.wallet.support.utils.DisplayHelper;
+import io.morelonetwork.wallet.support.utils.DrawableHelper;
+import io.morelonetwork.wallet.support.utils.SelectorFactory;
+import io.morelonetwork.wallet.support.utils.ShadowDrawable;
 
 
 public class BackgroundHelper {

@@ -1,10 +1,10 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import androidx.lifecycle.MutableLiveData
 import android.graphics.Bitmap
 import cn.bingoogolapple.qrcode.zxing.QRCodeEncoder
-import io.wookey.wallet.base.BaseViewModel
-import io.wookey.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.support.extensions.dp2px
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

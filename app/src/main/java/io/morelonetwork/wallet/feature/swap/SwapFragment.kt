@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.swap
+package io.morelonetwork.wallet.feature.swap
 
 import android.app.Activity
 import android.content.Intent
@@ -10,20 +10,20 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseActivity
-import io.wookey.wallet.base.BaseFragment
-import io.wookey.wallet.core.XMRWalletController
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.dialog.ExtraIDPromptDialog
-import io.wookey.wallet.dialog.PickerDialog
-import io.wookey.wallet.dialog.SwapRiskDialog
-import io.wookey.wallet.feature.address.ScanActivity
-import io.wookey.wallet.feature.auth.AuthManager
-import io.wookey.wallet.support.*
-import io.wookey.wallet.support.extensions.*
-import io.wookey.wallet.widget.IOSDialog
-import io.wookey.wallet.widget.MaterialProgressDrawable
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseActivity
+import io.morelonetwork.wallet.base.BaseFragment
+import io.morelonetwork.wallet.core.XMRWalletController
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.dialog.ExtraIDPromptDialog
+import io.morelonetwork.wallet.dialog.PickerDialog
+import io.morelonetwork.wallet.dialog.SwapRiskDialog
+import io.morelonetwork.wallet.feature.address.ScanActivity
+import io.morelonetwork.wallet.feature.auth.AuthManager
+import io.morelonetwork.wallet.support.*
+import io.morelonetwork.wallet.support.extensions.*
+import io.morelonetwork.wallet.widget.IOSDialog
+import io.morelonetwork.wallet.widget.MaterialProgressDrawable
 import kotlinx.android.synthetic.main.base_title_second.*
 import kotlinx.android.synthetic.main.fragment_swap.*
 

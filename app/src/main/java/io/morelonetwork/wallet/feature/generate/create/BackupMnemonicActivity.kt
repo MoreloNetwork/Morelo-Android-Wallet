@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.generate.create
+package io.morelonetwork.wallet.feature.generate.create
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -10,15 +10,15 @@ import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.dialog.BakMnemonicDialog
-import io.wookey.wallet.dialog.PasswordDialog
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.copy
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.toast
-import io.wookey.wallet.widget.SpaceItemDecoration
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.dialog.BakMnemonicDialog
+import io.morelonetwork.wallet.dialog.PasswordDialog
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.copy
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.toast
+import io.morelonetwork.wallet.widget.SpaceItemDecoration
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_backup_mnemonic.*
 import kotlinx.android.synthetic.main.item_mnemonic.*

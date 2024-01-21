@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.setting
+package io.morelonetwork.wallet.feature.setting
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,14 +6,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.App
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseFragment
-import io.wookey.wallet.feature.address.AddressBookActivity
-import io.wookey.wallet.feature.wallet.WalletManagerActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.versionName
+import io.morelonetwork.wallet.App
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseFragment
+import io.morelonetwork.wallet.feature.address.AddressBookActivity
+import io.morelonetwork.wallet.feature.wallet.WalletManagerActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.versionName
 import kotlinx.android.synthetic.main.base_title_second.*
 import kotlinx.android.synthetic.main.fragment_setting.*
 

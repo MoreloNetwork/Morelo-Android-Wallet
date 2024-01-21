@@ -46,7 +46,7 @@ object XMRWalletController {
         password: String,
         mnemonic: String,
         restoreHeight: Long
-    ): io.wookey.wallet.data.entity.Wallet {
+    ): io.morelonetwork.wallet.data.entity.Wallet {
         val newWallet = WalletManager.getInstance()
             .recoveryWallet(aFile, password, mnemonic, restoreHeight)
         val success = newWallet.status == Wallet.Status.Status_Ok
@@ -60,7 +60,7 @@ object XMRWalletController {
         address: String,
         viewKey: String,
         spendKey: String
-    ): io.wookey.wallet.data.entity.Wallet {
+    ): io.morelonetwork.wallet.data.entity.Wallet {
         val newWallet = WalletManager.getInstance()
             .createWalletWithKeys(
                 aFile,
@@ -75,13 +75,13 @@ object XMRWalletController {
         return close(success, newWallet)
     }
 
-    private fun close(success: Boolean, newWallet: Wallet): io.wookey.wallet.data.entity.Wallet {
+    private fun close(success: Boolean, newWallet: Wallet): io.morelonetwork.wallet.data.entity.Wallet {
         try {
             if (!success) {
                 throw RuntimeException(newWallet.errorString)
             } else {
                 val sym = sharedPreferences().getString("symbol", "") ?: ""
-                return io.wookey.wallet.data.entity.Wallet().apply {
+                return io.morelonetwork.wallet.data.entity.Wallet().apply {
                     symbol = sym
                     name = newWallet.name
                     address = newWallet.address

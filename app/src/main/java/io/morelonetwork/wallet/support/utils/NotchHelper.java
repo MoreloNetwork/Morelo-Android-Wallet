@@ -1,4 +1,4 @@
-package io.wookey.wallet.support.utils;
+package io.morelonetwork.wallet.support.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

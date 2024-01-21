@@ -1,4 +1,4 @@
-package io.wookey.wallet.support.extensions
+package io.morelonetwork.wallet.support.extensions
 
 import kotlin.reflect.KProperty
 

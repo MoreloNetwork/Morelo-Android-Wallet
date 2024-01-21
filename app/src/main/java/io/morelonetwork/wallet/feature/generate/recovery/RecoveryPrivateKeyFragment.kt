@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.generate.recovery
+package io.morelonetwork.wallet.feature.generate.recovery
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -7,14 +7,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.ActivityStackManager
-import io.wookey.wallet.MainActivity
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseFragment
-import io.wookey.wallet.feature.wallet.WalletManagerActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.*
-import io.wookey.wallet.widget.IOSDialog
+import io.morelonetwork.wallet.ActivityStackManager
+import io.morelonetwork.wallet.MainActivity
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseFragment
+import io.morelonetwork.wallet.feature.wallet.WalletManagerActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.*
+import io.morelonetwork.wallet.widget.IOSDialog
 import kotlinx.android.synthetic.main.fragment_recovery_private_key.*
 
 class RecoveryPrivateKeyFragment : BaseFragment() {

@@ -1,14 +1,14 @@
-package io.wookey.wallet
+package io.morelonetwork.wallet
 
 import android.app.Activity
 import android.app.Application
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Bundle
-import io.wookey.wallet.support.VersionManager
-import io.wookey.wallet.support.extensions.getLocale
-import io.wookey.wallet.support.extensions.getSystemDefaultLocale
-import io.wookey.wallet.support.extensions.setLocale
+import io.morelonetwork.wallet.support.VersionManager
+import io.morelonetwork.wallet.support.extensions.getLocale
+import io.morelonetwork.wallet.support.extensions.getSystemDefaultLocale
+import io.morelonetwork.wallet.support.extensions.setLocale
 import java.util.*
 
 class App : Application() {

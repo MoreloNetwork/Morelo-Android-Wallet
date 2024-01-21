@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.generate.create
+package io.morelonetwork.wallet.feature.generate.create
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,16 +8,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.flexbox.*
-import io.wookey.wallet.ActivityStackManager
-import io.wookey.wallet.MainActivity
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.feature.wallet.WalletManagerActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.remove
-import io.wookey.wallet.support.extensions.sharedPreferences
-import io.wookey.wallet.support.extensions.toast
+import io.morelonetwork.wallet.ActivityStackManager
+import io.morelonetwork.wallet.MainActivity
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.feature.wallet.WalletManagerActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.remove
+import io.morelonetwork.wallet.support.extensions.sharedPreferences
+import io.morelonetwork.wallet.support.extensions.toast
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_verify_mnemonic.*
 import kotlinx.android.synthetic.main.item_mnemonic_verify.*

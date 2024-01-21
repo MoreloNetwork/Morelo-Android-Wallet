@@ -2,7 +2,7 @@ package io.morelonetwork.wallet.data.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import io.wookey.wallet.data.entity.Node
+import io.morelonetwork.wallet.data.entity.Node
 
 @Dao
 interface NodeDao {

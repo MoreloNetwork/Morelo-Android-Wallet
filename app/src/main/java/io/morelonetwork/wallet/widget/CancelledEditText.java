@@ -1,4 +1,4 @@
-package io.wookey.wallet.widget;
+package io.morelonetwork.wallet.widget;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;

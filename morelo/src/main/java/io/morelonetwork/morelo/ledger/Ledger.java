@@ -1,4 +1,4 @@
-package io.wookey.monero.ledger;/*
+package io.morelonetwork.monero.ledger;/*
  *******************************************************************************
  *   BTChip Bitcoin Hardware Wallet Java API
  *   (c) 2014 BTChip - 1BTChip7VfTnrPra5jqci7ejnMguuHogTn

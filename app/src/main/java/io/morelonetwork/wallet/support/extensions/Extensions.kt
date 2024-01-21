@@ -1,4 +1,4 @@
-package io.wookey.wallet.support.extensions
+package io.morelonetwork.wallet.support.extensions
 
 import android.app.Activity
 import android.content.ClipData
@@ -31,11 +31,11 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bigkoo.pickerview.builder.TimePickerBuilder
-import io.wookey.wallet.App
-import io.wookey.wallet.R
-import io.wookey.wallet.data.remote.entity.RPCResponse
-import io.wookey.wallet.support.KEY_ALIAS
-import io.wookey.wallet.support.RSA_KEY_ALIAS
+import io.morelonetwork.wallet.App
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.data.remote.entity.RPCResponse
+import io.morelonetwork.wallet.support.KEY_ALIAS
+import io.morelonetwork.wallet.support.RSA_KEY_ALIAS
 import java.math.BigDecimal
 import java.math.BigInteger
 import java.security.KeyPairGenerator

@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.wallet
+package io.morelonetwork.wallet.feature.wallet
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -8,15 +8,15 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.entity.SubAddress
-import io.wookey.wallet.dialog.SubAddressEditDialog
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.copy
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.toast
-import io.wookey.wallet.widget.DividerItemDecoration
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.entity.SubAddress
+import io.morelonetwork.wallet.dialog.SubAddressEditDialog
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.copy
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.toast
+import io.morelonetwork.wallet.widget.DividerItemDecoration
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_address_setting.*
 import kotlinx.android.synthetic.main.item_sub_address.*

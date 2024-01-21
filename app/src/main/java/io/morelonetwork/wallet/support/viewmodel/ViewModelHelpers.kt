@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.wookey.wallet.support.viewmodel
+package io.morelonetwork.wallet.support.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

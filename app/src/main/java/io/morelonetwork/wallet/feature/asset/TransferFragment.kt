@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,14 +8,14 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseFragment
-import io.wookey.wallet.data.entity.TransactionInfo
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.formatterAmountStrip
-import io.wookey.wallet.support.extensions.formatterDate
-import io.wookey.wallet.widget.DividerItemDecoration
-import io.wookey.wallet.widget.StatusAdapterWrapper
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseFragment
+import io.morelonetwork.wallet.data.entity.TransactionInfo
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.formatterAmountStrip
+import io.morelonetwork.wallet.support.extensions.formatterDate
+import io.morelonetwork.wallet.widget.DividerItemDecoration
+import io.morelonetwork.wallet.widget.StatusAdapterWrapper
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.fragment_transfet.*
 import kotlinx.android.synthetic.main.item_transaction.*

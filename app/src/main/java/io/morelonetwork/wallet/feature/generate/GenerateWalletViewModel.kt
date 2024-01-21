@@ -1,17 +1,17 @@
-package io.wookey.wallet.feature.generate
+package io.morelonetwork.wallet.feature.generate
 
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import android.content.Intent
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseViewModel
-import io.wookey.wallet.core.XMRRepository
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.support.WALLET_CREATE
-import io.wookey.wallet.support.WALLET_RECOVERY
-import io.wookey.wallet.support.extensions.putInt
-import io.wookey.wallet.support.extensions.sharedPreferences
-import io.wookey.wallet.support.viewmodel.SingleLiveEvent
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.core.XMRRepository
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.support.WALLET_CREATE
+import io.morelonetwork.wallet.support.WALLET_RECOVERY
+import io.morelonetwork.wallet.support.extensions.putInt
+import io.morelonetwork.wallet.support.extensions.sharedPreferences
+import io.morelonetwork.wallet.support.viewmodel.SingleLiveEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

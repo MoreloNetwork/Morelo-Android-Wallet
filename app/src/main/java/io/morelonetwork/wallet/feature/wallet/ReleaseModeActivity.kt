@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.wallet
+package io.morelonetwork.wallet.feature.wallet
 
 import android.app.Activity
 import android.content.Intent
@@ -12,13 +12,13 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.entity.WalletRelease
-import io.wookey.wallet.dialog.PromptDialog
-import io.wookey.wallet.feature.auth.PatternSettingActivity
-import io.wookey.wallet.support.REQUEST_PATTERN_SETTING
-import io.wookey.wallet.support.extensions.*
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.entity.WalletRelease
+import io.morelonetwork.wallet.dialog.PromptDialog
+import io.morelonetwork.wallet.feature.auth.PatternSettingActivity
+import io.morelonetwork.wallet.support.REQUEST_PATTERN_SETTING
+import io.morelonetwork.wallet.support.extensions.*
 import kotlinx.android.synthetic.main.activity_release_mode.*
 import javax.crypto.Cipher
 

@@ -1,10 +1,10 @@
-package io.wookey.wallet.feature.generate.recovery
+package io.morelonetwork.wallet.feature.generate.recovery
 
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
-import io.wookey.wallet.base.BaseViewModel
-import io.wookey.wallet.core.XMRRepository
-import io.wookey.wallet.core.XMRWalletController
+import io.morelonetwork.wallet.base.BaseViewModel
+import io.morelonetwork.wallet.core.XMRRepository
+import io.morelonetwork.wallet.core.XMRWalletController
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

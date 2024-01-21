@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.swap
+package io.morelonetwork.wallet.feature.swap
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,14 +9,14 @@ import android.widget.TextView
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.entity.SwapRecord
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.formatterDate
-import io.wookey.wallet.support.extensions.setOnLoadMoreListener
-import io.wookey.wallet.support.extensions.viewModel
-import io.wookey.wallet.widget.DividerItemDecoration
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.entity.SwapRecord
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.formatterDate
+import io.morelonetwork.wallet.support.extensions.setOnLoadMoreListener
+import io.morelonetwork.wallet.support.extensions.viewModel
+import io.morelonetwork.wallet.widget.DividerItemDecoration
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_swap_records.*
 import kotlinx.android.synthetic.main.item_swap_record.*

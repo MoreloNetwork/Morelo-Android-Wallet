@@ -1,11 +1,11 @@
-package io.wookey.wallet.feature.auth
+package io.morelonetwork.wallet.feature.auth
 
 import android.graphics.Canvas
 import android.graphics.Paint
 import androidx.annotation.ColorInt
 import com.github.ihsg.patternlocker.CellBean
 import com.github.ihsg.patternlocker.IHitCellView
-import io.wookey.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.dp2px
 
 class RippleLockerHitCellView : IHitCellView {
 

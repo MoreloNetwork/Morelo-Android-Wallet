@@ -1,8 +1,8 @@
-package io.wookey.wallet.support
+package io.morelonetwork.wallet.support
 
 import android.util.Log
-import io.wookey.wallet.App
-import io.wookey.wallet.support.extensions.versionCode
+import io.morelonetwork.wallet.App
+import io.morelonetwork.wallet.support.extensions.versionCode
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

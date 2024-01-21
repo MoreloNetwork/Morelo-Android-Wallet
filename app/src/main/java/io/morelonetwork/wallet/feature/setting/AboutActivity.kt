@@ -1,16 +1,16 @@
-package io.wookey.wallet.feature.setting
+package io.morelonetwork.wallet.feature.setting
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import io.wookey.wallet.App
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.extensions.getCurrentLocale
-import io.wookey.wallet.support.extensions.openBrowser
-import io.wookey.wallet.support.extensions.versionName
+import io.morelonetwork.wallet.App
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.extensions.getCurrentLocale
+import io.morelonetwork.wallet.support.extensions.openBrowser
+import io.morelonetwork.wallet.support.extensions.versionName
 import kotlinx.android.synthetic.main.activity_about.*
 
 class AboutActivity : BaseTitleSecondActivity() {

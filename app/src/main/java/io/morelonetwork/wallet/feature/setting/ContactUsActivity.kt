@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.setting
+package io.morelonetwork.wallet.feature.setting
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.entity.ContactUs
-import io.wookey.wallet.support.extensions.copy
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.widget.DividerItemDecoration
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.entity.ContactUs
+import io.morelonetwork.wallet.support.extensions.copy
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.widget.DividerItemDecoration
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_contact_us.*
 import kotlinx.android.synthetic.main.item_contact_us.*

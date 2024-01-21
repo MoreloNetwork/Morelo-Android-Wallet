@@ -1,4 +1,4 @@
-package io.wookey.wallet.feature.auth
+package io.morelonetwork.wallet.feature.auth
 
 import android.app.Activity
 import android.content.Intent
@@ -7,10 +7,10 @@ import android.view.View
 import androidx.core.content.ContextCompat
 import com.github.ihsg.patternlocker.OnPatternChangeListener
 import com.github.ihsg.patternlocker.PatternLockerView
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.support.extensions.dp2px
-import io.wookey.wallet.support.utils.StatusBarHelper
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.support.extensions.dp2px
+import io.morelonetwork.wallet.support.utils.StatusBarHelper
 import kotlinx.android.synthetic.main.activity_pattern_setting.*
 
 class PatternSettingActivity : BaseTitleSecondActivity() {

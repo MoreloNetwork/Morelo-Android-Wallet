@@ -1,22 +1,22 @@
-package io.wookey.wallet.feature.asset
+package io.morelonetwork.wallet.feature.asset
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import io.wookey.wallet.R
-import io.wookey.wallet.base.BaseTitleSecondActivity
-import io.wookey.wallet.data.AppDatabase
-import io.wookey.wallet.feature.address.AddressBookActivity
-import io.wookey.wallet.feature.address.ScanActivity
-import io.wookey.wallet.support.BackgroundHelper
-import io.wookey.wallet.support.REQUEST_SCAN_ADDRESS
-import io.wookey.wallet.support.REQUEST_SELECT_ADDRESS
-import io.wookey.wallet.support.extensions.afterTextChanged
-import io.wookey.wallet.support.extensions.formatterAmountStrip
-import io.wookey.wallet.support.extensions.setImage
-import io.wookey.wallet.support.extensions.toast
+import io.morelonetwork.wallet.R
+import io.morelonetwork.wallet.base.BaseTitleSecondActivity
+import io.morelonetwork.wallet.data.AppDatabase
+import io.morelonetwork.wallet.feature.address.AddressBookActivity
+import io.morelonetwork.wallet.feature.address.ScanActivity
+import io.morelonetwork.wallet.support.BackgroundHelper
+import io.morelonetwork.wallet.support.REQUEST_SCAN_ADDRESS
+import io.morelonetwork.wallet.support.REQUEST_SELECT_ADDRESS
+import io.morelonetwork.wallet.support.extensions.afterTextChanged
+import io.morelonetwork.wallet.support.extensions.formatterAmountStrip
+import io.morelonetwork.wallet.support.extensions.setImage
+import io.morelonetwork.wallet.support.extensions.toast
 import kotlinx.android.synthetic.main.activity_send.*
 
 class SendActivity : BaseTitleSecondActivity() {
